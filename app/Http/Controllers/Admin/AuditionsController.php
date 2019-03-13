@@ -18,7 +18,7 @@ class AuditionsController extends Controller
      */
     public function index()
     {
-        //
+        //index
         $user = \Auth::user();
 
         if($user->role_id == 1) {
